@@ -89,6 +89,7 @@ jobs:
         run: |
           # For reference: https://www.gnu.org/software/bash/manual/html_node/The-Set-Builtin.html.
           set -vxeuo pipefail
+          cp -v ${CONDA_PACK_TEMPLATE_DIR}/export.sh .
           bash ${CONDA_PACK_TEMPLATE_RUNNER}
           ls -laF
           cp -v Dockerfile ${CONDA_PACK_TEMPLATE_RUNNER} artifacts/
