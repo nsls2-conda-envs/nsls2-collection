@@ -110,7 +110,7 @@ dependencies:
   - scikit-beam >=0.0.24
   - scikit-learn
   - scipy
-  - silx >=0.15.2,<1
+  - silx >=0.15.2
   - sixtools
   - slackclient
   - smi-analysis
