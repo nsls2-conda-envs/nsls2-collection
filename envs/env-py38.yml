@@ -139,6 +139,7 @@ dependencies:
   - zbar  # dependency of pyzbar
   # Simulation packages:
   - oscars
+  # NOTE: shadow3 causes conflict issues with scipy>=1.8.
   # - shadow3
   - srwpy
   - xrt
