@@ -1,4 +1,4 @@
-name: 2022-2.3-py38
+name: 2022-2.4-py38
 channels:
   - conda-forge
 dependencies:
@@ -122,7 +122,7 @@ dependencies:
   - suitcase-mongo
   - suitcase-msgpack
   - suitcase-specfile
-  - suitcase-tiff
+  - suitcase-tiff >=0.4.0
   - suitcase-utils
   - sympy
   - toml
