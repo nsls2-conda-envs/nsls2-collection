@@ -1,4 +1,4 @@
-name: 2022-2.4-py39
+name: 2022-3.1-py39
 channels:
   - conda-forge
 dependencies:
@@ -10,17 +10,17 @@ dependencies:
   - python >=3.9,<3.10
   - amostra <=1.0
   - ansiwrap
-  - area-detector-handlers
+  - area-detector-handlers >=0.0.9
   - arvpyf
   - attrs >=18.0
   - black
-  - bluesky >=1.8.3
-  - bluesky-kafka >=0.9.0  # [not win]
+  - bluesky >=1.9.0
+  - bluesky-kafka >=0.9.1  # [not win]
   - bluesky-live >=0.0.8
-  - bluesky-queueserver
+  - bluesky-queueserver >=0.0.16
   # TODO: sort out conflicts with bluesky-queueserver-api
   # - bluesky-queueserver-api
-  - bluesky-widgets >=0.0.10
+  - bluesky-widgets >=0.0.13
   - boto3
   - chxtools
   - cmasher
@@ -35,7 +35,7 @@ dependencies:
   - dpcmaps
   # - edrixs
   - eiger-io
-  - event-model >=1.17.2
+  - event-model >=1.18.0
   - fabio
   - ffmpeg >=4.0
   - flake8
@@ -68,23 +68,23 @@ dependencies:
   - memory_profiler
   - mendeleev
   - modestimage
-  - mxtools >=0.0.2
+  - mxtools >=0.0.6
   - napari >=0.4.11
   - natsort
   - netcdf4
   - nexpy >=0.14.1
   - nodejs
   - nsls2-detector-handlers >=0.0.2
-  - nslsii >=0.4.0
+  - nslsii >=0.7.0
   - numexpr
   - numpy >=1.14.0
-  - nyxtools >=0.0.3
+  - nyxtools >=0.0.10
   - oct2py
   - opencv
   - openpyxl
-  - ophyd >=1.6.4
+  - ophyd >=1.7.0
   - papermill
-  - pdfstream
+  - pdfstream >=0.6.0
   - peakutils
   - periodictable
   - photutils
@@ -103,7 +103,7 @@ dependencies:
   - pystackreg
   - python
   - python-graphviz
-  - pyxrf >=1.0.10
+  - pyxrf >=1.0.18
   - pyzbar  # [not win]
   - qt >=5.9.0
   - redis-py
@@ -165,7 +165,7 @@ dependencies:
   - hklpy  # [linux]
   - hxnfly >=0.0.10
   - ppmac
-  - xpdacq
+  - xpdacq >=1.1.0
   # Debugging tools:
   - hunter
   - logging_tree
