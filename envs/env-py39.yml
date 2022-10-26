@@ -164,7 +164,7 @@ dependencies:
   - hklpy  # [linux]
   - hxnfly >=0.0.10
   - ppmac
-  - xpdacq >=1.1.0
+  - xpdacq >=1.1.2
   # Debugging tools:
   - hunter
   - logging_tree
