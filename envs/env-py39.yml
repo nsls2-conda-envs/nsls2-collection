@@ -1,4 +1,4 @@
-name: 2022-3.1-py39
+name: 2022-3.2-py39
 channels:
   - conda-forge
 dependencies:
@@ -33,7 +33,7 @@ dependencies:
   - distributed
   - doi2bib
   - dpcmaps
-  # - edrixs
+  - edrixs
   - eiger-io
   - event-model >=1.18.0
   - fabio
@@ -84,7 +84,7 @@ dependencies:
   - openpyxl
   - ophyd >=1.7.0
   - papermill
-  - pdfstream >=0.6.0
+  - pdfstream >=0.6.1
   - peakutils
   - periodictable
   - photutils
@@ -140,8 +140,7 @@ dependencies:
   - zbar  # dependency of pyzbar
   # Simulation packages:
   - oscars
-  # NOTE: shadow3 causes conflict issues with scipy>=1.8.
-  # - shadow3
+  - shadow3
   - srwpy
   - xrt
   #***************************************************************************#
