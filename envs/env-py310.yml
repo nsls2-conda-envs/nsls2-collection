@@ -84,7 +84,7 @@ dependencies:
   - openpyxl
   - ophyd >=1.7.0
   - papermill
-  - pdfstream >=0.6.1
+  # - pdfstream >=0.6.1
   - peakutils
   - periodictable
   - photutils
