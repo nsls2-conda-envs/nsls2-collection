@@ -1,4 +1,4 @@
-name: 2022-3.2-py39
+name: 2023-1.0-py39
 channels:
   - conda-forge
 dependencies:
@@ -14,13 +14,13 @@ dependencies:
   - arvpyf
   - attrs >=18.0
   - black
-  - bluesky >=1.9.0
+  - bluesky >=1.10.0
   - bluesky-kafka >=0.9.1  # [not win]
   - bluesky-live >=0.0.8
-  - bluesky-queueserver >=0.0.16
+  - bluesky-queueserver >=0.0.18
   # TODO: sort out conflicts with bluesky-queueserver-api
   # - bluesky-queueserver-api
-  - bluesky-widgets >=0.0.13
+  - bluesky-widgets >=0.0.14
   - boto3
   - chxtools
   - cmasher
@@ -35,7 +35,7 @@ dependencies:
   - dpcmaps
   - edrixs
   - eiger-io
-  - event-model >=1.18.0
+  - event-model >=1.19.1
   - fabio
   - ffmpeg >=4.0
   - flake8
@@ -64,27 +64,27 @@ dependencies:
   - lixtools
   - lmfit
   - lxml
-  - matplotlib >=3.1.0,!=3.3
+  - matplotlib >=3.6.2
   - memory_profiler
   - mendeleev
   - modestimage
-  - mxtools >=0.0.6
-  - napari >=0.4.11
+  - mxtools >=0.0.8
+  - napari >=0.4.17
   - natsort
   - netcdf4
-  - nexpy >=0.14.1
+  - nexpy >=0.14.8
   - nodejs
   - nsls2-detector-handlers >=0.0.2
-  - nslsii >=0.7.0
+  - nslsii >=0.8.0
   - numexpr
-  - numpy >=1.14.0
+  - numpy >=1.24.0
   - nyxtools >=0.0.10
   - oct2py
   - opencv
   - openpyxl
   - ophyd >=1.7.0
   - papermill
-  - pdfstream >=0.6.1
+  - pdfstream >=0.6.2
   - peakutils
   - periodictable
   - photutils
@@ -98,21 +98,21 @@ dependencies:
   - pyfftw
   - pymongo >=3.7
   - pypdf2
-  - pyqt >=5.9.0
+  - pyqt >=5.12.0
   - pyqtgraph
   - pystackreg
   - python
   - python-graphviz
-  - pyxrf >=1.0.18
+  - pyxrf >=1.0.21
   - pyzbar  # [not win]
-  - qt >=5.9.0
+  - qt >=5.12.0
   - redis-py
   - reportlab
   - requests
   - sasview
   - scikit-beam >=0.0.24
   - scikit-learn
-  - scipy >=1.8.0
+  - scipy >=1.9.0
   - silx
   - sixtools
   - slackclient
@@ -134,9 +134,8 @@ dependencies:
   - xlrd
   - xlwt
   - xmidas >=0.1.2
-  - xpdan >=0.8.2
   - xray-vision >=0.1.1
-  - xraylarch >=0.9.58
+  - xraylarch >=0.9.60
   - zbar  # dependency of pyzbar
   # Simulation packages:
   - oscars
@@ -164,7 +163,7 @@ dependencies:
   - hklpy  # [linux]
   - hxnfly >=0.0.10
   - ppmac
-  - xpdacq >=1.1.2
+  - xpdacq >=1.1.4
   # Debugging tools:
   - hunter
   - logging_tree
@@ -174,4 +173,5 @@ dependencies:
   - pyperformance
   - pip
   - pip:
+    # TODO: check if it is compatible via a conda package now.
     - bluesky-queueserver-api
