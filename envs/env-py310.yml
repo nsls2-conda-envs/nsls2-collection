@@ -127,7 +127,7 @@ dependencies:
   - suitcase-utils
   - sympy
   - toml
-  - tomopy >=1.11
+  - tomopy >=1.12.2
   - tornado
   - tqdm
   - tzlocal !=3.0
