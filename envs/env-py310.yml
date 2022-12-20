@@ -170,3 +170,6 @@ dependencies:
   - line_profiler
   - pyinstrument
   - pyperformance
+  # ML:
+  - gpytorch
+  - pytorch
