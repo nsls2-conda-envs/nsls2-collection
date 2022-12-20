@@ -15,7 +15,7 @@ dependencies:
   - attrs >=18.0
   - black
   - bluesky >=1.10.0
-  - bluesky-kafka >=0.9.1  # [not win]
+  - bluesky-kafka >=0.9.1
   - bluesky-live >=0.0.8
   - bluesky-queueserver >=0.0.18
   - bluesky-queueserver-api >=0.0.9
@@ -91,7 +91,7 @@ dependencies:
   - pocl  # needed by pyopencl, used by the `xrt` package
   - prefect
   - py4xs
-  - pycentroids  # [not win]
+  - pycentroids
   - pyepics >=3.4.2
   - pyfai
   - pyfftw
@@ -103,7 +103,7 @@ dependencies:
   - python
   - python-graphviz
   - pyxrf >=1.0.21
-  - pyzbar  # [not win]
+  - pyzbar
   - qt >=5.12.0
   - redis-py
   - reportlab
@@ -154,7 +154,7 @@ dependencies:
   # - pydm
   - pyolog >=4.5.0
   - pyserial
-  - python-confluent-kafka  # [not win]
+  - python-confluent-kafka
   - pyzenodo3
   - simple-pid
   - slack-sdk
