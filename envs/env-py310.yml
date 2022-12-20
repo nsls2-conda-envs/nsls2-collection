@@ -95,6 +95,8 @@ dependencies:
   - pyepics >=3.4.2
   - pyfai
   - pyfftw
+  - pymca
+  - pymcr
   - pymongo >=3.7
   - pypdf2
   - pyqt >=5.12.0
