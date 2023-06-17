@@ -157,7 +157,7 @@ dependencies:
   #            Dependencies from the `nsls2-collection` metapackage           #
   #                                                                           #
   #***************************************************************************#
-  - bloptools >=0.2.0
+  - bloptools >=0.3.0
   - bluesky-darkframes >=0.6.0
   - caproto
   - emojis
