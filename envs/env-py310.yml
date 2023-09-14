@@ -32,6 +32,10 @@ dependencies:
   - dash
   - dash-bootstrap-components
   - dask
+  - dask-image
+  - dask-jobqueue
+  - dask-ml
+  - dask-xgboost
   - databroker >=1.2.5,<2.0.0a
   - databroker-pack
   - dictdiffer
@@ -139,7 +143,7 @@ dependencies:
   - suitcase-csv
   - suitcase-json-metadata
   - suitcase-jsonl
-  - suitcase-mongo
+  - suitcase-mongo >=0.4.0
   - suitcase-msgpack
   - suitcase-specfile
   - suitcase-tiff >=0.4.0
