@@ -1,4 +1,4 @@
-name: 2023-3.3-py310
+name: 2024-1.0-py310
 channels:
   - conda-forge
 dependencies:
@@ -26,6 +26,7 @@ dependencies:
   - bokeh
   - boto3
   - bottleneck
+  - broh5
   - chxtools
   - cmasher
   - conda-pack
@@ -73,6 +74,7 @@ dependencies:
   - jedi
   - jupyter
   - jupyterlab
+  - ldap3
   - legacy-suitcase
   - lixtools
   - lmfit
@@ -99,7 +101,7 @@ dependencies:
   # pandas and deps
   - pandas
   - openpyxl  # used by pandas .to_excel()
-  - pyarrow  # used by pandas .to_parquet()
+  - pyarrow  # >=14.0.1  # used by pandas .to_parquet()
   - pytables  # used by pandas .to_hdf()
   # end of pandas deps
   - papermill
@@ -130,6 +132,7 @@ dependencies:
   - pyxrf >=1.0.24
   - pyzbar
   - qt >=5.15.0
+  - redis-dict
   - redis-py
   - reportlab
   - requests
